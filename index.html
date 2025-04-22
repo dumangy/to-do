@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">To-Do List</h1>
+        <p class="header__subtitle">Проект: To-Do List (Список дел)</p>
+    </header>
+    <main>
+        <main>
+            <section class="task-input">
+                <div class="task-input__fields">
+                    <input type="text" id="new-task" placeholder="Добавить новую задачу">
+                    <select id="suggested-tasks">
+                        <option value="" disabled selected>Выберите задачу</option>
+                        <option value="Купить продукты">Купить продукты</option>
+                        <option value="Сделать домашнее задание">Сделать домашнее задание</option>
+                        <option value="Позвонить другу">Позвонить другу</option>
+                    </select>
+                </div>
+                <button id="add-task">Добавить</button>
+            </section>
+            <section class="task-list">
+                <ul id="tasks"></ul>
+            </section>
+        </main>
+    </main>
+    <footer>
+        <p>&copy; 2025 To-Do App by dumangy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
